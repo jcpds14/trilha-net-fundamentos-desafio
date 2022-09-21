@@ -69,9 +69,9 @@ namespace DesafioFundamentos.Models
                 // TODO: Realizar um laço de repetição, exibindo os veículos estacionados
                 int contadorDeVeiculos = 0;
 
-                foreach (string placa in veiculos)
+                foreach (string veiculo in veiculos)
                 {
-                    Console.WriteLine($"Veículo {contadorDeVeiculos}: {placa}");
+                    Console.WriteLine($"Veículo {contadorDeVeiculos}: {veiculo}");
 
                     contadorDeVeiculos++;
                 }
